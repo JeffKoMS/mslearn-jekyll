@@ -25,6 +25,8 @@ $(function() {
         languageClass == 'language-js' ? 'javascript' : 
         languageClass == 'language-xml' ? 'xml' : 
         languageClass == 'language-sql' ? 'sql' : 
+        languageClass == 'language-bash' ? 'bash' :
+        languageClass == 'language-python' ? 'python' :
         languageClass == 'language-csharp' ? 'c#' : 'code';
     $(this).attr('id', generatedId);
     var header = $('<div/>', {
